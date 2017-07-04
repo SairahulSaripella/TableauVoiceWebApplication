@@ -24,44 +24,57 @@ following the given instructions located in this manual.
 
 # List of legal commands
  
-# Command                                     Response
-Exit, Hide, or Close                          Hides the Tableau window
+# Command -Response
+Exit, Hide, or Close                         
+-Hides the Tableau window
 
-Reload                                        Reloads the page
+Reload                                       
+-Reloads the page
 
 A specific filter name with ‘add’ a
 nd synonym of add(example:'add', 'ad',
-'ed', 'at', 'plus', 'put in', 'include')      Add a specific filter into current field
+'ed', 'at', 'plus', 'put in', 'include')      
+-Add a specific filter into current field
 
 A specific filter name with synonym of 
-remove(example: 'remove', 'reduce', 'delete') Remove a specific filter from the current field
+remove(example: 'remove', 'reduce', 'delete') 
+-Remove a specific filter from the current field
 
 A specific filter name without 'add', 'ad',
 'ed', 'at', 'plus', 'put in', 'include', 
-'remove', 'reduce', 'delete'                  Default action when detect a filter name, it will replace all the filters in the current                                                 field into this specific filter
+'remove', 'reduce', 'delete'                  
+-Default action when detect a filter name, it will replace all the filters in the current                                                 field into this specific filter
 
 A specific field name with synonym of reset 
 (example: 'reset','all', 'everything',
-'clear', 'reload', 'refresh')                Reset this field by adding all the filters into it
+'clear', 'reload', 'refresh')               
+-Reset this field by adding all the filters into it
 
 
 A specific field and filter name with
 synonym of add (example:'add', 'ad', 'ed',
-'at', 'plus', 'put in', 'include')           Add a specific field which belongs to this specific field into this field (example: For a                                                filter based on ‘States’ ”add Texas” unhides Texas)
+'at', 'plus', 'put in', 'include')           
+-Add a specific field which belongs to this specific field into this field (example: For a                                                filter based on ‘States’ ”add Texas” unhides Texas)
 
 
 A specific field and filter name with
 synonym of remove (example: 'remove', 
-'reduce', 'delete')                          remove a specific filter which belongs to this specific field from this field (example: For                                              a filter based on ‘States’ ”remove Texas” hides Texas)
+'reduce', 'delete')                         
+-remove a specific filter which belongs to this specific field from this field (example: For                                              a filter based on ‘States’ ”remove Texas” hides Texas)
 
 
 A specific field and filter name without
 'add', 'ad', 'ed', 'at', 'plus', 'put in',
-'include', 'remove', 'reduce', 'delete'      Default action when detect both a field and filter name, it will replace all the filters in                                              this specific field into this specific filter
+'include', 'remove', 'reduce', 'delete'      
+-Default action when detect both a field and filter name, it will replace all the filters in                                              this specific field into this specific filter
 
 
-Any command with a tab name                  Switch to the tab which has the name appeared inside the command (example: The command                                                  “Economy” switches to the tab Economy if exists)
+Any command with a tab name                  
+-Switch to the tab which has the name appeared inside the command (example: The command                                                  “Economy” switches to the tab Economy if exists)
 
 
-“help”                                       Program will speak the names of supported field names back to you.
-“ignore”                                     Stop listening
+“help”                                       
+-Program will speak the names of supported field names back to you.
+
+“ignore”                                     
+-Stop listening
